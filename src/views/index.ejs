@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title%></title>
+    <%- include("partials/head") %>
+  </head>
+  <body>
+    <%- include("partials/navigation") %>
+
+    <!-- Main content -->
+    <header
+      class="container vh-100 d-flex flex-column align-items-center justify-content-center"
+    >
+      <img src="/img/node_logo.png" class="w-50" />
+      <h1 class="display-1 my-2 text-uppercase fw-bold">Jack</h1>
+      <a href="/about" class="btn btn-primary w-25">Acerca de mí</a>
+    </header>
+
+    <%- include("partials/footer") %>
+    <!-- scripts -->
+    <%- include("partials/scripts")%>
+  </body>
+</html>
